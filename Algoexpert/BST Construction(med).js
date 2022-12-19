@@ -8,6 +8,8 @@ class BST {
         this.right = null
     }
 
+    //avg: O(logn) time // O(1) space
+    //worst: O(n) time // O(1) space
     insert(value){
         let currentNode= this
 
@@ -31,7 +33,8 @@ class BST {
         return this
     }
 
-
+//avg: O(logn) time // O(1) space
+    //worst: O(n) time // O(1) space
     contains(value){
         let currentNode= this
         while (currentNode != null){
@@ -54,6 +57,9 @@ class BST {
         return currentNode.value
     }
 
+
+    //avg: O(logn) time // O(1) space
+    //worst: O(n) time // O(1) space
 
     remove(value, parentNode = null){
         let currentNode = this
