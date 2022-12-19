@@ -19,7 +19,6 @@ function tournamentWinner(competitions, results) {
         currentscore =  teams[winner]
       }
     }
-    // return Object.keys(teams).reduce((a,b) => teams[a]>teams[b] ? a : b )  //O(N) time
   
     return winningT
     
