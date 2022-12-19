@@ -18,19 +18,21 @@ function twoNumberSum(array, target){
 
 function twoNumberSum(array, target){
 
-   let nums = {}
-
-   for(let i=0;i<array.length;i++){
-    let match = target - array[i]
-    if (nums[match]>=0){
-        return [match, array[i]]
-    }else{
-        nums[array[i]]= true
+    let nums = {}
+ 
+    for(let i=0;i<array.length;i++){
+     let match = target - array[i]
+     if (nums[match]>=0){
+       return [match, array[i]]
+     }else{
+         nums[array[i]]= true
+     }
     }
-   }
-
-    return []
-}
+ 
+     return []
+    }
 
 //___________________//
+
+//Time Comlexity - O(nlogn), Space Complexity - O(1)
 
