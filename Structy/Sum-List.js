@@ -1,5 +1,5 @@
 
-//n time, n space
+//n time, 1 space
 const sumList = (head) => {
     let sum = 0
     let current= head
