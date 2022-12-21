@@ -18,8 +18,7 @@ const mergeLists = (head1, head2) => {
       }
       tail=tail.next
     }
-
-
+    
       if(current1!== null) tail.next =current1
       if (current2!==null) tail.next = current2
     
