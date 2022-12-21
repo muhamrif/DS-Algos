@@ -1,6 +1,6 @@
 
 
-// n runtime, 1 space
+// nm runtime, 1 space
 // iterative solution
 const zipperLists = (head1, head2)=>{
     let tail = head1
@@ -30,7 +30,7 @@ const zipperLists = (head1, head2)=>{
 
 
 //recursive solution
-// n runtime, n space
+// nm runtime, nm space
 
 const zipperLists2 = (head1, head2)=>{
     if (head1===null && head2===null) return null
