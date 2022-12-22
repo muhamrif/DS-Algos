@@ -1,0 +1,62 @@
+binary tree intro 
+
+root node is the parent node, has no parents of its own 
+leaf node is the bottom node, has no children of its own 
+
+.next (either left or right) are considered child nodes
+
+
+what is binary?
+means the root node and all its node has 2 childrens at most
+
+
+binary tree: 
+1. at most 2 children per node
+2. exactly 1 root (parent) node of the tree
+3. exactly 1 path between root and any node
+4. no nodes = empty tree
+
+
+to access values:
+
+node 
+node.left 
+node.right
+
+
+creating a binary tree:
+ 
+
+ class Node {
+    constructor(val){
+        this.val = val
+        this.left = null
+        this.right =null
+    }
+ }
+
+
+ const a = new Node('a')
+ const b = new Node('b')
+ const c = new Node('c')
+ const d = new Node('d')
+ const e = new Node('e')
+ const f = new Node('f')
+
+ a.left = b
+ a.right = c
+ b.left= d
+ b.right =e
+ c.right =f
+
+            a
+           / \
+          b   c
+        /   \   \
+       d     e   f
+
+
+depth first search:
+searching through the bst nodes top down 
+DFS for the tree above would be:
+[a,b,d,e,c,f] 
