@@ -1,1 +1,1 @@
-practice DSA questions from Leetcode, AlgoExpert, and Structy. 
+practice DSA questions' solution from Leetcode, AlgoExpert, and Structy. 
