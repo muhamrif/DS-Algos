@@ -60,3 +60,8 @@ depth first search:
 searching through the bst nodes top down 
 DFS for the tree above would be:
 [a,b,d,e,c,f] 
+
+breadth first search: 
+searching through the bst nodes top down, but from side to side
+BFS for the tree above would be:
+[a,b,c,d,e,f]
