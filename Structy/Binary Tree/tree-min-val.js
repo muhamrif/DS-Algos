@@ -2,6 +2,8 @@
 //dfs, n time, n sapce
 const treeMinValue = (root) => {
     // todo
+
+    
       if (root===null)return 0
        let result = []
         let stack = [root]
