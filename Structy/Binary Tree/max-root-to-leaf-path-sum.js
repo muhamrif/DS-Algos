@@ -8,6 +8,6 @@ const maxPathSum = (root) => {
         maxPathSum(root.left),
         maxPathSum(root.right)
     )
-   return root.val + maxChild
+     return root.val + maxChild
 
 }
