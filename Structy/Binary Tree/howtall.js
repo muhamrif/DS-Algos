@@ -1,2 +1,1 @@
-//check how tall is the tree, only given is the root node 
-//
+//check how tall is the tree, only given is the root node, we have to see how many nodeswe have to go through to get to the leaf node
