@@ -2,7 +2,7 @@
 
 
 
-//recursive, n runtime, space
+//recursive, n runtime, n space
 const howHigh = (node) => {
     if (node === null) return -1;
   
