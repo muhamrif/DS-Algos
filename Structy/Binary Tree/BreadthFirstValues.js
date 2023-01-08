@@ -2,6 +2,8 @@
 
 
 //n^2 runtime(.shit is n runtime), n space
+
+
 const beadthFirstValues = (root)=>{
     if (root===null)return []
   
