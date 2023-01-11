@@ -5,13 +5,15 @@
 
 
 const beadthFirstValues = (root)=>{
+    
     if (root===null)return []
   
     let result = []
+
     const queue = [root]
 
     while (queue.length>0){
-        
+
         const current = queue.shift()
 
         result.push(current.val)
