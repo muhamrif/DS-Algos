@@ -1,6 +1,6 @@
 print ('lets learn python')
 
-
+# brute force: n^2 runtime, 1 space
 arr1 = [2,7,11,15]
 def func(arr, target):
     for i in arr:
@@ -12,6 +12,8 @@ def func(arr, target):
 
 print(func(arr1, 9))
    
+
+
 
 # func()
 
