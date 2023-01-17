@@ -12,8 +12,19 @@ def func(arr, target):
 
 print(func(arr1, 9))
    
+# optimised n runtime, n space.
+def twoSum(nums, target):
+    prevMap={}
 
+    for i, n in enumerate(nums):
+        diff = target - n
+        if diff in prevMap:
+            return [prevMap[diff], i]
+        prevMap[n] = i
+        
+    return
 
+print(twoSum(arr1, 9))
 
 # func()
 
