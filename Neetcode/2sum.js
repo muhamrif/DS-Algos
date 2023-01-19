@@ -7,8 +7,9 @@ function twosum (arr, target){
     let map ={}
 
     for (let i=0;i<arr.length;i++){
-        let targetsum = target-(arr[i])
 
+        let targetsum = target-(arr[i])
+        
         if (map[targetsum]>=0){
             return [map[targetsum], i]
         }else{
