@@ -11,8 +11,11 @@ function twosum (arr, target){
         let targetsum = target-(arr[i])
         
         if (map[targetsum]>=0){
+
             return [map[targetsum], i]
+
         }else{
+            
             map[arr[i]]=i
         }
     }
