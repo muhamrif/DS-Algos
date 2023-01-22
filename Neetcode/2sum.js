@@ -1,7 +1,7 @@
-//leetcode 1
+//leetcode problem #1
 
 
-
+//n runtime, n space(because of the {})
 function twosum (arr, target){
 
     let map ={}
