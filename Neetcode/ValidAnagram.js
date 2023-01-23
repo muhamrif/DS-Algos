@@ -2,11 +2,15 @@
 
 
 function anagram (s,t){
+
+    //nlogn time , 1 space
     // s = s.split('').sort().join('')
     // t = t.split('').sort().join('')
 
     // // return t===s
 
+
+    //n+m time, n+m space
     let smap = {}
     let tmap = {}
 
