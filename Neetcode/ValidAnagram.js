@@ -46,28 +46,3 @@ console.log(anagram('anagram', 'nagaram'))
 console.log(anagram('rat', 'car'))
 
 
-
-// function perfectHand(string){
-// let map={}
-// for (let i=0;i<string.length;i++){
-//     if (!map[string[i]]){
-//     map[string[i]]=1
-//     }else{
-//     map[string[i]]++
-//     }
-//     }
-
-//     let triples = 0
-//     let pair = 0
-
-//     for (let i in map){
-//         if (map[i]===3){
-//             triples++
-//         }if (map[i]===2){
-//             pair ++
-//         }
-//     }
-//     if (triples>=0&&pair===1) return true
-//     return false
-
-// }
