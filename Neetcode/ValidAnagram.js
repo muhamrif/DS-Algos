@@ -42,7 +42,7 @@ function anagram (s,t){
 
 
 
-console.log(anagram('anagram', 'nagaram'))
-console.log(anagram('rat', 'car'))
+console.log(anagram('anagram', 'nagaram'))//ture
+console.log(anagram('rat', 'car'))//false
 
 
