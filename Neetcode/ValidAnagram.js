@@ -43,9 +43,6 @@ function anagram (s,t){
 
 
 console.log(anagram('anagram', 'nagaram'))// should return true
-
-
-
 console.log(anagram('rat', 'car'))//should return false
 
 
