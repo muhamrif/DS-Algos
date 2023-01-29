@@ -26,4 +26,6 @@ function twosum (arr, target){
 
 }
 
+// there is another method for this Q, we use nested forloops to accomlpish the same resutl, that solution will be n^2 time and 1 space. 
+
 console.log(twosum([1,2,3,4,5,6], 10))
