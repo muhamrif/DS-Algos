@@ -13,7 +13,7 @@ def func(arr, target):
 
 print(func(arr1, 9))
    
-# optimised n runtime, n space.
+#n runtime, n space. this is more optimised
 def twoSum(nums, target):
     prevMap={}
 
