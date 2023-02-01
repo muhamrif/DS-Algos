@@ -1,6 +1,6 @@
 print ('lets learn python')
 
-# brute force: n^2 runtime, 1 space
+# brute force: n^2 runtime, 1 space(nested forloops) 
 arr1 = [2,7,11,15]
 
 def func(arr, target):
