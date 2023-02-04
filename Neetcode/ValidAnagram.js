@@ -10,7 +10,7 @@ function anagram (s,t){
     // // return t===s
 
 
-    //n+m time, n+m space
+    //n+m time, n+m space, using a frequency counter.
     let smap = {}
     let tmap = {}
 
