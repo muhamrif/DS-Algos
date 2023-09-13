@@ -1,4 +1,4 @@
-const LinkedList = require("../util/LinkedListX");
+const LinkedList = require("/LinkedListX");
 
 var findKthToLast = function(k, list) {
   // do iteratively
