@@ -29,4 +29,6 @@ var palinPerm = function(string) {
     return isPerm;
   };
 
+  //Solution2
+
   
