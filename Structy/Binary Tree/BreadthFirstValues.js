@@ -1,7 +1,7 @@
 //strat is using a queue to keep a track of visited nodes and it's children (FIFO)
 
 
-//n^2 runtime(.shit is n runtime), n space
+//n^2 runtime(.shift is n runtime), n space
 
 
 const beadthFirstValues = (root)=>{
