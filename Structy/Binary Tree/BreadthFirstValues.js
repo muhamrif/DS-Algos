@@ -17,6 +17,7 @@ const beadthFirstValues = (root)=>{
         const current = queue.shift()
 
         result.push(current.val)
+        
 
         if (current.left!== null) queue.push(current.left)
 
@@ -24,5 +25,5 @@ const beadthFirstValues = (root)=>{
 
     }
     return result
-    
+
 }
